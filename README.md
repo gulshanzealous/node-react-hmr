@@ -2,7 +2,7 @@
 
 - HMR for backend with webpack
 - Hot reloading in frontend courtesy create-react-app
-    equals awesome setup for development
+- equals awesome setup for development
 
 
 FOR DEVELOPMENT
@@ -13,12 +13,12 @@ npm run dev
 
 FOR PRODUCTION BUILD
 ---------------------
--build with 
+- build with 
     npm run build
-    // server build at ./build/production.js
-    // frontend build at ./client/build*
+    - server build at ./build/production.js
+    - frontend build at ./client/build*
 
--serve with
-    npm run serve
-    // effectively node production.js (hosts the static frontend bundle at root route "/" and other api routes at "/api/*" )
+- serve with
+    - npm run serve
+    -- effectively node production.js (hosts the static frontend bundle at root route "/" and other api routes at "/api/*" )
 
