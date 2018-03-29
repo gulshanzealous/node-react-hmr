@@ -13,7 +13,7 @@ let port = process.env.PORT || 8080
 let currentApp = app
 
 
-server.listen( '0.0.0.0', port, ()=>{
+server.listen( port, '0.0.0.0', ()=>{
     console.log(`app running on port ${process.env.PORT} `)
 })
 
