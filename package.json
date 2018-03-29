@@ -2,7 +2,7 @@
   "name": "shopper",
   "version": "1.0.0",
   "description": "",
-  "main": "cd build && production.js",
+  "main": "index.js",
   "scripts": {
     "api": "webpack --mode=development",
     "client": "cd client && npm start",
@@ -10,7 +10,7 @@
     "build-server": "webpack",
     "build-client": "cd client && npm run build",
     "build": "concurrently 'npm run build-server' 'npm run build-client' ",
-    "serve": "npm run build && cd build && nodemon production.js"
+    "start": "npm run build && cd build && nodemon production.js"
   },
   "author": "",
   "license": "ISC",
