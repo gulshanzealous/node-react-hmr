@@ -9,10 +9,11 @@ mongoose.connection.on("error",err=>{
 
 
 const server = http.createServer(app)
+let port = process.env.PORT || 8080
 let currentApp = app
 
 
-server.listen(process.env.PORT || 8080, ()=>{
+server.listen( '0.0.0.0', port, ()=>{
     console.log(`app running on port ${process.env.PORT} `)
 })
 
